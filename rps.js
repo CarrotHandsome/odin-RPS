@@ -12,7 +12,15 @@ function getComputerChoice() {
 }
 
 function getPlayerFunction() {
-    return "rock";
+    play = prompt().toLowerCase;
+    if (play == "rock" || play == "paper" || play == "scissors") {
+        return play;
+    }
+    else {
+        console.log("enter rock paper or scissors please");
+        return getPlayerFunction();
+    }
+    
 }
 
 function playRound(player, computer) {

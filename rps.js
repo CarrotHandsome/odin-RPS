@@ -11,7 +11,7 @@ function getComputerChoice() {
     }
 }
 
-function getPlayerFunction() {
+function getPlayerChoice() {
     play = prompt().toLowerCase;
     if (play == "rock" || play == "paper" || play == "scissors") {
         return play;
